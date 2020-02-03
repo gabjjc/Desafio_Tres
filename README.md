@@ -21,3 +21,5 @@ La compilación del proyecto se realiza mediante el comando `mvn clean install`,
 Es importante remarcar que para que compile el proyecto se debe instalar la libreria proporcionada en el repositorio m2 de maven.  para ello ejecutar `mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=Generador_Datos_Desafio_Tres-1.0.0.jar`.
 
 La ejecución de la applicación se realiza mediante el comando `java -jar desafio3.jar`. Una vez ejecutado el comando la applicación genera el archivo Valores.json el cual esta ordenado por fecha.
+
+Creado por Gabriel Casanova
